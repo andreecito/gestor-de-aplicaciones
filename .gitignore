@@ -1,0 +1,28 @@
+# Configuracion privada y credenciales
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+.codex/
+
+# Estado local de Claude; conservar agents/ y skills/
+.claude/settings.local.json
+.claude/agent-memory-local/
+.claude/worktrees/
+.claude/sessions/
+.claude/debug/
+.claude/tasks/
+.claude/projects/
+
+# Dependencias y resultados generados
+node_modules/
+dist/
+coverage/
+*.log
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
